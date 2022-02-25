@@ -1,6 +1,6 @@
 {
-  "name": "exploit-playground",
-  "description": "Exploit Playground",
+  "name": "c4box",
+  "description": "Code Arena Sandbox",
   "author": "Andreas Bigger <andreas@nascent.xyz>",
   "license": "AGPL-3.0-only",
   "version": "1.2.0",
@@ -9,7 +9,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/abigger87/foundry-starter.git"
+    "url": "git+https://github.com/abigger87/c4box.git"
   },
   "devDependencies": {
     "prettier": "^2.3.1",

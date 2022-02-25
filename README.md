@@ -1,6 +1,6 @@
-# exploit-playground  • [![tests](https://github.com/abigger87/exploit-playground/actions/workflows/tests.yml/badge.svg)](https://github.com/abigger87/exploit-playground/actions/workflows/tests.yml) [![lints](https://github.com/abigger87/exploit-playground/actions/workflows/lints.yml/badge.svg)](https://github.com/abigger87/exploit-playground/actions/workflows/lints.yml) ![GitHub](https://img.shields.io/github/license/abigger87/exploit-playground) ![GitHub package.json version](https://img.shields.io/github/package-json/v/abigger87/exploit-playground)
+# c4box  • [![tests](https://github.com/abigger87/c4box/actions/workflows/tests.yml/badge.svg)](https://github.com/abigger87/c4box/actions/workflows/tests.yml) [![lints](https://github.com/abigger87/c4box/actions/workflows/lints.yml/badge.svg)](https://github.com/abigger87/c4box/actions/workflows/lints.yml) ![GitHub](https://img.shields.io/github/license/abigger87/c4box) ![GitHub package.json version](https://img.shields.io/github/package-json/v/abigger87/c4box)
 
-Exploit Playground
+[Code 4rena](https://code4rena.com/) Sandbox & Exploits
 
 ```m
                             ▓▓▓▓▓▓▓▓▒▒▒▒          ░░  ▒▒▒▒▓▓▓▓▓▓▓▓▓▓▒▒                            
@@ -108,7 +108,7 @@ Using [foundry.toml](./foundry.toml), Foundry is easily configurable.
 
 ## License
 
-[AGPL-3.0-only](https://github.com/abigger87/exploit-playground/blob/master/LICENSE)
+[AGPL-3.0-only](https://github.com/abigger87/c4box/blob/master/LICENSE)
 
 # Acknowledgements
 
