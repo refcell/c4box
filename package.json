@@ -1,6 +1,6 @@
 {
-  "name": "foundry-starter",
-  "description": "Minimal Template for Foundry Projects",
+  "name": "exploit-playground",
+  "description": "Exploit Playground",
   "author": "Andreas Bigger <andreas@nascent.xyz>",
   "license": "AGPL-3.0-only",
   "version": "1.2.0",

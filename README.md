@@ -1,6 +1,6 @@
-# pde  • [![tests](https://github.com/abigger87/pde/actions/workflows/tests.yml/badge.svg)](https://github.com/abigger87/pde/actions/workflows/tests.yml) [![lints](https://github.com/abigger87/pde/actions/workflows/lints.yml/badge.svg)](https://github.com/abigger87/pde/actions/workflows/lints.yml) ![GitHub](https://img.shields.io/github/license/abigger87/pde) ![GitHub package.json version](https://img.shields.io/github/package-json/v/abigger87/pde)
+# exploit-playground  • [![tests](https://github.com/abigger87/exploit-playground/actions/workflows/tests.yml/badge.svg)](https://github.com/abigger87/exploit-playground/actions/workflows/tests.yml) [![lints](https://github.com/abigger87/exploit-playground/actions/workflows/lints.yml/badge.svg)](https://github.com/abigger87/exploit-playground/actions/workflows/lints.yml) ![GitHub](https://img.shields.io/github/license/abigger87/exploit-playground) ![GitHub package.json version](https://img.shields.io/github/package-json/v/abigger87/exploit-playground)
 
-Permissed Delegation Exploit Proof of Concept
+Exploit Playground
 
 ```m
                             ▓▓▓▓▓▓▓▓▒▒▒▒          ░░  ▒▒▒▒▓▓▓▓▓▓▓▓▓▓▒▒                            
@@ -46,9 +46,7 @@ lib
 ├─ solmate — https://github.com/Rari-Capital/solmate
 ├─ clones-with-immutable-args — https://github.com/wighawag/clones-with-immutable-args
 src
-├─ tests
-│  └─ Greeter.t — "Greeter Tests"
-└─ Greeter — "A Minimal Greeter Contract"
+└─ FindOutYourself.jpeg
 ```
 
 ## Development
@@ -110,7 +108,7 @@ Using [foundry.toml](./foundry.toml), Foundry is easily configurable.
 
 ## License
 
-[AGPL-3.0-only](https://github.com/abigger87/pde/blob/master/LICENSE)
+[AGPL-3.0-only](https://github.com/abigger87/exploit-playground/blob/master/LICENSE)
 
 # Acknowledgements
 

@@ -15,8 +15,14 @@ contract Delegation {
     bytes data;
   }
 
+  /// @notice Owner Custom Error
+  error OnlyOwner();
+
+  /// @notice Already initialized custom error
+  error AlreadyInitialized();
+
   /// @notice Contract owner.
-  address private _owner;
+  address public owner;
 
   /// @notice Timestamp until which the delegation is locked.
   uint96 public lockUntil;
@@ -24,8 +30,8 @@ contract Delegation {
   /// @notice Initializes the delegation.
   /// @param _lockUntil Timestamp until which the delegation is locked
   function initialize(uint96 _lockUntil) public {
-    require(_owner == address(0), "Delegation/already-init");
-    _owner = msg.sender;
+    if (owner != address(0)) revert AlreadyInitialized();
+    owner = msg.sender;
     lockUntil = _lockUntil;
   }
 
@@ -63,7 +69,7 @@ contract Delegation {
 
   /// @notice Modifier to only allow the contract owner to call a function
   modifier onlyOwner() {
-    require(msg.sender == _owner, "Delegation/only-owner");
+    if (msg.sender != owner) revert OnlyOwner();
     _;
   }
 }
