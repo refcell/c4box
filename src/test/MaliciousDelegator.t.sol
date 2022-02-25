@@ -55,10 +55,11 @@ contract MaliciousDelegatorTest is DSTestPlus {
     function testExploit() public {
         // Call the exploit function from the owner context
         startHoax(maliciousOwner, maliciousOwner, type(uint256).max);
+        vm.expectRevert(abi.encodePacked("Delegation Failed"));
         md.exploit();
         vm.stopPrank();
 
         // Check that the Delegation now has a changed
-        assert(d.lockUntil() == md.LOCK_UNTIL());
+        // assert(d.lockUntil() == md.LOCK_UNTIL());
     }
 }
