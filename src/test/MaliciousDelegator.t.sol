@@ -3,9 +3,9 @@ pragma solidity 0.8.12;
 
 import {DSTestPlus} from "./utils/DSTestPlus.sol";
 
-import {MaliciousDelegator} from "../MaliciousDelegator.sol";
-import {VulnerableOwner} from "../VulnerableOwner.sol";
-import {Delegation} from "../Delegation.sol";
+import {MaliciousDelegator} from "../permissioned_delegate/MaliciousDelegator.sol";
+import {VulnerableOwner} from "../permissioned_delegate/VulnerableOwner.sol";
+import {Delegation} from "../permissioned_delegate/Delegation.sol";
 
 contract MaliciousDelegatorTest is DSTestPlus {
     MaliciousDelegator md;
