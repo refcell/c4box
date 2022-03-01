@@ -1,6 +1,6 @@
 // SPDX-License-Identifier: AGPL-3.0-only
 
-pragma solidity 0.8.11;
+pragma solidity 0.8.12;
 
 /// @title Delegation
 /// @notice A Delegation allows his owner to execute calls on behalf of the contract.

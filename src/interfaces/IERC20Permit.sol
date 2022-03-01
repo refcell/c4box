@@ -1,6 +1,6 @@
 // SPDX-License-Identifier: AGPL-3.0-only
 
-pragma solidity 0.8.11;
+pragma solidity 0.8.12;
 
 /// @title ERC20 Permit Extension Interface
 /// @author Adapted from https://github.com/OpenZeppelin/openzeppelin-contracts
