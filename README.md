@@ -1,4 +1,4 @@
-<img align="right" width="150" height="150" top="100" src="./assets/hat.png">
+<img align="right" width="180" height="150" top="100" src="./assets/hat.png">
 
 # c4box  • [![tests](https://github.com/abigger87/c4box/actions/workflows/tests.yml/badge.svg)](https://github.com/abigger87/c4box/actions/workflows/tests.yml) [![lints](https://github.com/abigger87/c4box/actions/workflows/lints.yml/badge.svg)](https://github.com/abigger87/c4box/actions/workflows/lints.yml) ![GitHub](https://img.shields.io/github/license/abigger87/c4box) ![GitHub package.json version](https://img.shields.io/github/package-json/v/abigger87/c4box)
 
